@@ -10,39 +10,6 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-      body {
-        margin: 0;
-        font-family: "inter", sans-serif;
-        color: #3d3a3a;
-      }
-
-      table {
-        border-spacing: 0;
-      }
-
-      td {
-        padding: 0;
-      }
-
-      img {
-        border: 0;
-      }
-
-      p {
-        margin: 0;
-        font-family: "inter";
-      }
-
-      .primary-button {
-        text-decoration: none;
-        font-weight: 600;
-        color: #ffffff;
-        background-color: #ff005e;
-        padding: 10px 16px;
-        border-radius: 8px;
-        max-height: 35px;
-      }
-
       a.primary-button:hover {
         background: #e60055 !important;
       }
@@ -52,9 +19,11 @@
       }
     </style>
   </head>
-  <body>
+  <body
+    style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: #3d3a3a"
+  >
     <!-- OUTER BACKGROUND -->
-    <table width="100%" cellpadding="0" cellspacing="0">
+    <table width="100%" cellpadding="0" cellspacing="0" border-spacing="0">
       <tr>
         <td
           align="center"
@@ -69,6 +38,7 @@
             width="100%"
             cellpadding="0"
             cellspacing="0"
+            border-spacing="0"
             style="
               border-radius: 16px;
               background-color: #fafafa;
@@ -85,6 +55,7 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="border-radius: 16px 16px 0px 0px"
                 >
                   <tr>
@@ -92,7 +63,7 @@
                       <img
                         src="images/Features Border 600x80px-14.png"
                         alt="wodle email header"
-                        style="width: 100%; max-width: 600px"
+                        style="width: 100%; max-width: 600px; border: 0"
                       />
                     </td>
                   </tr>
@@ -104,6 +75,7 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="padding: 12px; padding: 0px 16px 16px 16px"
                 >
                   <tr>
@@ -125,13 +97,18 @@
                         <tr>
                           <td align="center">
                             <!--HEADER + DOODLE PNG-->
-                            <table width="100%" cellpadding="0" cellspacing="0">
+                            <table
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              border-spacing="0"
+                            >
                               <tr>
                                 <td align="center" style="padding-bottom: 22px">
                                   <img
                                     src="images/lock_key_reset_email.png"
                                     alt="email doodle"
-                                    style="width: 100px"
+                                    style="width: 100px; border: 0"
                                   />
                                 </td>
                               </tr>
@@ -154,7 +131,12 @@
                             </table>
 
                             <!--BODY-->
-                            <table width="100%" cellpadding="0" cellspacing="0">
+                            <table
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              border-spacing="0"
+                            >
                               <tr>
                                 <td
                                   style="
@@ -164,6 +146,8 @@
                                 >
                                   <p
                                     style="
+                                      font-family: 'Inter';
+                                      font-size: 16px;
                                       margin: 0;
                                       font-weight: 300;
                                       line-height: 22px;
@@ -177,6 +161,8 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
+                                      font-size: 16px;
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 56px;
@@ -189,9 +175,23 @@
                                   </p>
                                 </td>
                               </tr>
+
+                              <!--CTA-->
                               <tr>
                                 <td align="center" style="padding-bottom: 56px">
-                                  <a href="#" class="primary-button"
+                                  <a
+                                    href="#"
+                                    class="primary-button"
+                                    style="
+                                      font-family: 'Inter';
+                                      text-decoration: none;
+                                      font-weight: 600px;
+                                      color: #ffff;
+                                      background-color: #ff005e;
+                                      padding: 10px 16px;
+                                      border-radius: 8px;
+                                      font-size: 16px;
+                                    "
                                     >Reset Password</a
                                   >
                                 </td>
@@ -201,13 +201,17 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
+                                      font-size: 16px;
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 16px;
                                       font-weight: 300;
                                     "
                                   >
-                                    Or copy and paste this link into your browser, this reset password  link will expire in 1 hour:
+                                    Or copy and paste this link into your
+                                    browser, this reset password link will
+                                    expire in 1 hour:
                                   </p>
                                 </td>
                               </tr>
@@ -216,7 +220,12 @@
                                 <td style="padding-bottom: 36px">
                                   <a
                                     href="#"
-                                    style="line-height: 22px; font-weight: 400"
+                                    style="
+                                      line-height: 22px;
+                                      font-weight: 400;
+                                      font-family: 'Inter';
+                                      font-size: 16px;
+                                    "
                                     >Password Reset Link</a
                                   >
                                 </td>
@@ -225,13 +234,17 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
+                                      font-size: 16px;
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 36px;
                                       font-weight: 300;
                                     "
                                   >
-                                    If you didn't request to reset your password with Wodle, you can safely ignore this email. Your password will remain unchanged. 
+                                    If you didn't request to reset your password
+                                    with Wodle, you can safely ignore this
+                                    email. Your password will remain unchanged.
                                   </p>
                                 </td>
                               </tr>
@@ -239,6 +252,8 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
+                                      font-size: 16px;
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 56px;
@@ -257,6 +272,8 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
+
                                       margin: 0;
                                       font-size: 16px;
                                       font-weight: 300;
@@ -268,6 +285,7 @@
                                   </p>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       font-size: 16px;
                                       font-weight: 400;
@@ -291,6 +309,7 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="padding: 24px 0px 0px"
                 >
                   <tr>
@@ -307,6 +326,7 @@
                       </h4>
                       <p
                         style="
+                          font-family: 'Inter';
                           margin: 0;
                           font-size: 16px;
                           font-weight: 300;
@@ -325,6 +345,7 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="padding: 0px 0px 36px"
                 >
                   <tr>
@@ -356,6 +377,7 @@
                                   vertical-align: middle;
                                   margin-bottom: 2px;
                                   margin-left: 1px;
+                                  border: 0;
                                 "
                               />
                             </a>
@@ -386,6 +408,7 @@
                                   vertical-align: middle;
                                   margin-bottom: 2px;
                                   margin-left: 1px;
+                                  border: 0;
                                 "
                               />
                             </a>
@@ -416,6 +439,7 @@
                                   vertical-align: middle;
                                   margin-bottom: 2px;
                                   margin-left: 1px;
+                                  border: 0;
                                 "
                               />
                             </a>
@@ -434,12 +458,14 @@
             width="100%"
             cellpadding="0"
             cellspacing="0"
+            border-spacing="0"
             style="padding-top: 12px; border-radius: 0px 0px 16px 16px"
           >
             <tr>
               <td align="center">
                 <p
                   style="
+                    font-family: 'Inter';
                     margin: 0;
                     font-size: 14px;
                     font-weight: 300;
