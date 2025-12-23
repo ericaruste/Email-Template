@@ -10,39 +10,6 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-      body {
-        margin: 0;
-        font-family: "inter", sans-serif;
-        color: #3d3a3a;
-      }
-
-      table {
-        border-spacing: 0;
-      }
-
-      td {
-        padding: 0;
-      }
-
-      img {
-        border: 0;
-      }
-
-      p {
-        margin: 0;
-        font-family: "inter";
-      }
-
-      .primary-button {
-        text-decoration: none;
-        font-weight: 600;
-        color: #ffffff;
-        background-color: #ff005e;
-        padding: 10px 16px;
-        border-radius: 8px;
-        max-height: 35px;
-      }
-
       a.primary-button:hover {
         background: #e60055 !important;
       }
@@ -52,9 +19,11 @@
       }
     </style>
   </head>
-  <body>
+  <body
+    style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: #3d3a3a"
+  >
     <!-- OUTER BACKGROUND -->
-    <table width="100%" cellpadding="0" cellspacing="0">
+    <table width="100%" cellpadding="0" cellspacing="0" border-spacing="0">
       <tr>
         <td
           align="center"
@@ -69,24 +38,24 @@
             width="100%"
             cellpadding="0"
             cellspacing="0"
+            border-spacing="0"
             style="
               border-radius: 16px;
               background-color: #fafafa;
               width: 100%;
               max-width: 600px;
               overflow: hidden;
-              box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08)
+              box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
             "
           >
             <tr>
-              <td
-                align="center"
-              >
+              <td align="center">
                 <!--HEADER PNG-->
                 <table
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="border-radius: 16px 16px 0px 0px"
                 >
                   <tr>
@@ -94,7 +63,7 @@
                       <img
                         src="images/Features Border 600x80px-14.png"
                         alt="wodle email header"
-                        style="width: 100%; max-width: 600px"
+                        style="width: 100%; max-width: 600px; border: 0"
                       />
                     </td>
                   </tr>
@@ -106,6 +75,7 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="padding: 12px; padding: 0px 16px 16px 16px"
                 >
                   <tr>
@@ -115,9 +85,10 @@
                         width="100%"
                         cellpadding="0"
                         cellspacing="0"
+                        border-spacing="0"
                         style="
                           border-radius: 12px;
-                          padding: 70px 48px;
+                          padding: 70px 24px;
                           background-color: #ffff;
                           border: 2px solid #fadee8;
                           border-radius: 8px;
@@ -127,13 +98,18 @@
                         <tr>
                           <td align="center">
                             <!--HEADER + DOODLE PNG-->
-                            <table width="100%" cellpadding="0" cellspacing="0">
+                            <table
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              border-spacing="0"
+                            >
                               <tr>
-                                <td align="center" style="padding-bottom: 22px">
+                                <td align="center" style="padding-bottom: 16px">
                                   <img
                                     src="images/email_email.png"
                                     alt="email doodle"
-                                    style="width: 100px"
+                                    style="width: 80px; border: 0"
                                   />
                                 </td>
                               </tr>
@@ -156,7 +132,12 @@
                             </table>
 
                             <!--BODY-->
-                            <table width="100%" cellpadding="0" cellspacing="0">
+                            <table
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              border-spacing="0"
+                            >
                               <tr>
                                 <td
                                   style="
@@ -166,9 +147,11 @@
                                 >
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
-                                      font-weight: 300;
+                                      font-weight: 400;
                                       line-height: 22px;
+                                      font-size: 16px;
                                     "
                                   >
                                     Hi there,
@@ -179,10 +162,12 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 56px;
-                                      font-weight: 300;
+                                      font-weight: 400;
+                                      font-size: 16px;
                                     "
                                   >
                                     Thanks for signing up! Please confirm your
@@ -191,9 +176,23 @@
                                   </p>
                                 </td>
                               </tr>
+
+                              <!--CTA-->
                               <tr>
                                 <td align="center" style="padding-bottom: 56px">
-                                  <a href="#" class="primary-button"
+                                  <a
+                                    href="#"
+                                    class="primary-button"
+                                    style="
+                                      font-family: 'Inter';
+                                      text-decoration: none;
+                                      font-weight: bold;
+                                      color: #ffff;
+                                      background-color: #ff005e;
+                                      padding: 10px 16px;
+                                      border-radius: 8px;
+                                      font-size: 16px;
+                                    "
                                     >Confirm Email Address</a
                                   >
                                 </td>
@@ -203,10 +202,12 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 16px;
-                                      font-weight: 300;
+                                      font-weight: 400;
+                                      font-size: 16px;
                                     "
                                   >
                                     Or copy and paste this link into your
@@ -220,7 +221,13 @@
                                 <td style="padding-bottom: 36px">
                                   <a
                                     href="#"
-                                    style="line-height: 22px; font-weight: 400"
+                                    style="
+                                      font-family: 'Inter';
+                                      line-height: 22px;
+                                      font-weight: 400;
+                                      font-family: 'Inter';
+                                      font-size: 16px;
+                                    "
                                     >Email Confirmation Link</a
                                   >
                                 </td>
@@ -229,10 +236,12 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 36px;
-                                      font-weight: 300;
+                                      font-weight: 400;
+                                      font-size: 16px;
                                     "
                                   >
                                     If you didn't create an account with Wodle,
@@ -244,17 +253,19 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       line-height: 22px;
                                       padding-bottom: 56px;
-                                      font-weight: 300;
+                                      font-weight: 400;
+                                      font-size: 16px;
                                     "
                                   >
                                     Need help? Contact us at
                                     <span
-                                      style="color: #ff005e; font-weight: 400"
+                                      style="color: #ff005e; font-weight: bold"
                                       >hello@wodle.space</span
-                                    >
+                                    >.
                                   </p>
                                 </td>
                               </tr>
@@ -262,9 +273,10 @@
                                 <td>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       font-size: 16px;
-                                      font-weight: 300;
+                                      font-weight: 400;
                                       line-height: 20px;
                                       padding-bottom: 12px;
                                     "
@@ -273,9 +285,10 @@
                                   </p>
                                   <p
                                     style="
+                                      font-family: 'Inter';
                                       margin: 0;
                                       font-size: 16px;
-                                      font-weight: 400;
+                                      font-weight: bold;
                                       line-height: 20px;
                                     "
                                   >
@@ -296,7 +309,8 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
-                  style="padding: 24px 0px 0px"
+                  border-spacing="0"
+                  style="padding: 24px 24px 0px"
                 >
                   <tr>
                     <td align="center">
@@ -312,11 +326,12 @@
                       </h4>
                       <p
                         style="
+                          font-family: 'Inter';
                           margin: 0;
-                          font-size: 16px;
-                          font-weight: 300;
+                          font-size: 14px;
+                          font-weight: 400;
                           line-height: 20px;
-                          padding: 12px 0px;
+                          padding: 12px 12px;
                         "
                       >
                         Follow Wodle to get updates, new features, and helpful
@@ -330,6 +345,7 @@
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
+                  border-spacing="0"
                   style="padding: 0px 0px 36px"
                 >
                   <tr>
@@ -361,6 +377,7 @@
                                   vertical-align: middle;
                                   margin-bottom: 2px;
                                   margin-left: 1px;
+                                  border: 0;
                                 "
                               />
                             </a>
@@ -391,6 +408,7 @@
                                   vertical-align: middle;
                                   margin-bottom: 2px;
                                   margin-left: 1px;
+                                  border: 0;
                                 "
                               />
                             </a>
@@ -421,6 +439,7 @@
                                   vertical-align: middle;
                                   margin-bottom: 2px;
                                   margin-left: 1px;
+                                  border: 0;
                                 "
                               />
                             </a>
@@ -439,15 +458,17 @@
             width="100%"
             cellpadding="0"
             cellspacing="0"
+            border-spacing="0"
             style="padding-top: 12px; border-radius: 0px 0px 16px 16px"
           >
             <tr>
               <td align="center">
                 <p
                   style="
+                    font-family: 'Inter';
                     margin: 0;
                     font-size: 14px;
-                    font-weight: 300;
+                    font-weight: 400;
                     line-height: 20px;
                     padding: 12px 0px;
                   "
