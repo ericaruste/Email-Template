@@ -12,7 +12,7 @@
 
       body {
         margin: 0;
-        font-family: "inter", sans-serif;
+        font-family: "Inter", sans-serif;
         color: #3d3a3a;
       }
 
@@ -30,13 +30,13 @@
 
       p {
         margin: 0;
-        font-family: "inter";
+        font-family: "Inter", sans-serif;
       }
 
       .primary-button {
         text-decoration: none;
         font-weight: 600;
-        color: #ffffff;
+        color: #ffffff !important;
         background-color: #ff005e;
         padding: 10px 16px;
         border-radius: 8px;
@@ -90,7 +90,7 @@
                   <tr>
                     <td align="center" style="border-radius: 16px 16px 0px 0px">
                       <img
-                        src="images/Features Border 600x80px-14.png"
+                        src="https://bzpjgbhvppplcyyrevfx.supabase.co/storage/v1/object/public/public-images/email/Features%20Border%20600x80px-14.png"
                         alt="wodle email header"
                         style="width: 100%; max-width: 600px"
                       />
@@ -129,7 +129,7 @@
                               <tr>
                                 <td align="center" style="padding-bottom: 22px">
                                   <img
-                                    src="images/lock_key_reset_email.png"
+                                    src="https://bzpjgbhvppplcyyrevfx.supabase.co/storage/v1/object/public/public-images/email/lock_key_reset_email.png"
                                     alt="email doodle"
                                     style="width: 100px"
                                   />
@@ -141,7 +141,7 @@
                                     style="
                                       margin: 0;
                                       font-size: 24px;
-                                      font-family: 'encode sans condensed';
+                                      font-family: 'Encode Sans Condensed', sans-serif;
                                     "
                                   >
                                     Reset your
@@ -169,7 +169,7 @@
                                       line-height: 22px;
                                     "
                                   >
-                                    Hi there,
+                                    Hi There,
                                   </p>
                                 </td>
                               </tr>
@@ -191,7 +191,7 @@
                               </tr>
                               <tr>
                                 <td align="center" style="padding-bottom: 56px">
-                                  <a href="#" class="primary-button"
+                                  <a href="{{ .ConfirmationURL }}" class="primary-button"
                                     >Reset Password</a
                                   >
                                 </td>
@@ -215,10 +215,40 @@
                               <tr>
                                 <td style="padding-bottom: 36px">
                                   <a
-                                    href="#"
+                                    href="{{ .ConfirmationURL }}"
                                     style="line-height: 22px; font-weight: 400"
-                                    >Password Reset Link</a
+                                    >{{ .ConfirmationURL }}</a
                                   >
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p
+                                    style="
+                                      margin: 0;
+                                      line-height: 22px;
+                                      padding-bottom: 16px;
+                                      font-weight: 300;
+                                    "
+                                  >
+                                    Alternatively, you can use this verification code:
+                                  </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-bottom: 36px">
+                                  <p
+                                    style="
+                                      margin: 0;
+                                      line-height: 22px;
+                                      font-weight: 600;
+                                      font-size: 20px;
+                                      letter-spacing: 4px;
+                                      color: #ff005e;
+                                    "
+                                  >
+                                    {{ .Token }}
+                                  </p>
                                 </td>
                               </tr>
                               <tr>
@@ -300,7 +330,7 @@
                           margin: 0;
                           font-weight: bold;
                           font-size: 22px;
-                          font-family: 'Encode sans condensed';
+                          font-family: 'Encode Sans Condensed', sans-serif;
                         "
                       >
                         Join Our Community
@@ -346,7 +376,7 @@
                               "
                             >
                               <img
-                                src="Images/socmed_reddit logo.png"
+                                src="https://bzpjgbhvppplcyyrevfx.supabase.co/storage/v1/object/public/public-images/email/socmed_reddit%20logo.png"
                                 alt="Reddit Community"
                                 width="20"
                                 height="20"
@@ -376,7 +406,7 @@
                               "
                             >
                               <img
-                                src="Images/socmed_instagram logo.png"
+                                src="https://bzpjgbhvppplcyyrevfx.supabase.co/storage/v1/object/public/public-images/email/socmed_instagram%20logo.png"
                                 alt="Instagram Community"
                                 width="20"
                                 height="20"
@@ -406,7 +436,7 @@
                               "
                             >
                               <img
-                                src="Images/socmed_youtube logo.png"
+                                src="https://bzpjgbhvppplcyyrevfx.supabase.co/storage/v1/object/public/public-images/email/socmed_youtube%20logo.png"
                                 alt="Youtube Community"
                                 width="20"
                                 height="20"
